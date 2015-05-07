@@ -6,8 +6,9 @@
 #	https://www.docker.io/learn/dockerfile/level2/
 # ===========================================================================================
 
-FROM gmacario/baseimage:0.9.15b
-MAINTAINER Gianpaolo Macario, gmacario@gmail.com
+FROM that/baseimage:0.9.16
+# UPSTREAM MAINTAINER Gianpaolo Macario, gmacario@gmail.com
+MAINTAINER Chris McClimans, chris@hippiehacker.org
 
 # Make sure the package repository is up to date
 RUN apt-get update

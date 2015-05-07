@@ -5,9 +5,10 @@
 #	http://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html
 # ===========================================================================================
 
-FROM gmacario/easy-build
+FROM easybuild/base
 
-MAINTAINER Gianpaolo Macario, gmacario@gmail.com
+# UPSTREAM MAINTAINER Gianpaolo Macario, gmacario@gmail.com
+MAINTAINER Chris McClimans, chris@hippiehacker.org
 
 # Make sure the package repository is up to date
 RUN apt-get update
